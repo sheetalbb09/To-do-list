@@ -1,5 +1,3 @@
-
-
 <img width="666" alt="Screenshot 2024-08-28 at 17 07 16" src="https://github.com/user-attachments/assets/4e4ebd5e-b641-46c6-98da-46ca100f7511">
 
 # To-Do List Application
@@ -32,29 +30,20 @@ To run the application locally, follow these steps:
 ## File Details
 
 ### index.html
+
 This file sets up the basic structure of the application using standard HTML. It includes a `div` with an ID of `root`, which is where the JavaScript will render the application's UI.
 
 ### app.css
+
 This file contains the CSS classes that style the to-do list application. For example:
+
 - `.mt-2`: Adds a semi-transparent background color.
 - `.in-list`: Applies a specific text color to list items.
 
 ### app.js
+
 This JavaScript file contains the main logic for the to-do list functionality. It manages task addition, deletion, and toggling of task completion status.
 
 ### index.js
+
 The `index.js` file serves as the entry point for the JavaScript code. It initializes the app by rendering the initial UI into the `root` div in `index.html`.
-
-## Usage
-
-Simply open the `index.html` file in a web browser to start using the To-Do List application. Tasks can be added by typing into the input field and pressing "Enter." Tasks can be deleted by clicking a delete button next to each task, and tasks can be marked as completed by clicking on the task.
-
-## How to Use
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/ChandanaPrabhakar/React---To-do-list.git
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
